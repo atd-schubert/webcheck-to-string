@@ -1,0 +1,35 @@
+{
+  "name": "webcheck-to-string",
+  "version": "0.0.1",
+  "description": "Converts a webcheck buffer into a string if possible",
+  "main": "webcheck-to-string.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "webcheck": "^1.0.0"
+  },
+  "devDependencies": {
+    "express": "^4.13.3",
+    "freeport": "^1.0.5"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atd-schubert/webcheck-to-string.git"
+  },
+  "keywords": [
+    "buffer",
+    "string",
+    "utf8",
+    "webcheck"
+  ],
+  "author": "Arne Schubert <atd.schubert@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atd-schubert/webcheck-to-string/issues"
+  },
+  "homepage": "https://github.com/atd-schubert/webcheck-to-string#readme"
+}
